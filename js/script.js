@@ -1,14 +1,14 @@
 // Slidder Swiper
 var mySwiper = new Swiper('.swiper-container', {
   // Optional parameters
-  lazy: true,
   slidesPerView: 1,
   loop: true,
 
   // If we need pagination
   pagination: {
     el: '.swiper-pagination',
-     type: 'progressbar',
+     type: 'fraction',
+
   },
 
   // Navigation arrows
